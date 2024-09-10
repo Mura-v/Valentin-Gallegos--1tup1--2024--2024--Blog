@@ -49,6 +49,10 @@ nav > div:nth-child(2){
     column-gap: -1000px;
     border: black solid 1px;
 }
+#link_inicio{
+    max-width: 145px;
+    max-height: 150px;
+}
 
 
 
