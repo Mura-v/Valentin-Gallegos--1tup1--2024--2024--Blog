@@ -41,18 +41,43 @@ header{
     
 nav > div:nth-child(2){
     position:relative;
-    left: 650px;
+    left: 610px;
     display: flex;
     flex-direction: column;
     width: 214px;
     align-items: flex-start;
-    column-gap: -1000px;
-    border: black solid 1px;
+    border: solid rgb(149, 56, 236) 35px;
+    background-color: rgb(149, 56, 236);
+    border-radius: 40px;
+    height: 150px;
+    border-top: 5px;
 }
 #link_inicio{
     max-width: 145px;
     max-height: 150px;
 }
+#Zamora
+{
+    height: 300px;
+    width: 500px;
+}
+.texto
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: solid black 1px;
+}
 
+.Articulo1>p{
+    font-size: 15px;
+    width:400px;
+    position:relative;
+    left: 450px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
 
 
