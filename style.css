@@ -1,4 +1,7 @@
-
+*{
+    background-color: #1e1e1e;
+    color: #d3d3d3
+}
 #logotipo
 {
     border: solid black;
@@ -40,6 +43,7 @@ header{
 }
     
 nav > div:nth-child(2){
+   padding: 10px;
     position:relative;
     left: 610px;
     display: flex;
@@ -51,15 +55,18 @@ nav > div:nth-child(2){
     border-radius: 40px;
     height: 150px;
     border-top: 5px;
+
 }
 #link_inicio{
     max-width: 145px;
     max-height: 150px;
 }
-#Zamora
+#zamora
 {
     height: 300px;
     width: 500px;
+    position: relative;
+    left: 400px;
 }
 .texto
 {
@@ -79,5 +86,61 @@ nav > div:nth-child(2){
     align-items: flex-end;
     flex-direction: column;
 }
+.Articulo2>p{
+    font-size: 15px;
+    width:400px;
+    position:relative;
+    left: 450px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.Articulo3>p{
+    font-size: 15px;
+    width:400px;
+    position:relative;
+    left: 450px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
 
+.Intereses{
+    background-color: rgb(149, 56, 236);
+}
+#sobre_mi{
+    position: relative;
+    
+}
 
+#capacitacion{
+    height: 300px;
+    width: 300;
+    position: relative;
+    left: 350px;
+    
+}
+
+#partido{
+    height: 330px;
+    width: 500px;
+    position: relative;
+    left: 398px;
+}
+.comentarios{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.comentarios>input:first-child{
+    grid-column: 2/3;
+    grid-row: 1/4;
+    border: white solid 1px;
+}
+.comentarios>input:last-child{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    width:80px;
+    justify-self: end;
+}
