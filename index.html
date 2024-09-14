@@ -21,10 +21,8 @@
         </div>
         <div>
           <h1 class="Intereses">Secciones de interes </h1>
-          <a href="#Inicio" class="Intereses">ir al inicio</a>
-          <a href="#Blog" class="Intereses">ir a Blog</a>
-          <a href="#Sobre mi" class="Intereses">ir a Sobre mi</a>
-          <a name="Sobre mi" class="Intereses"><h2 class="Intereses" id="sobre_mi">Sobre mi</h2></a>
+          <a href="#Inicio" class="Intereses Links" >ir al inicio</a>
+          <a href="#Blog" class="Intereses Links" >ir a Blog</a>
          </div>
 </nav>
 </header>
@@ -33,8 +31,8 @@
     <a name="Blog"><h2></h2></a>
     <article class="Articulo1">
     <a name="Tecnología"><a name="Zamora"></a></a>
-        <h2 class="texto">Talleres de IA en escuelas de Lomas</h2>
-        <h3 class="texto">7/9/2024</h3>
+        <h2 class="texto" id="titulo1">Talleres de IA en escuelas de Lomas</h2>
+        <h3 class="texto Fechas">7/9/2024</h3>
         <img src="Archivos/Lomas.png" alt="Escuela de Lomas de Zamora" id="zamora">
         <p class="texto">
             Para introducir a los jóvenes en el mundo de las nuevas tecnologías, el Municipio de Lomas está dictando talleres de formación en computación, Inteligencia Artificial (IA) y programación en escuelas a través de un trabajo conjunto con la Facultad de Ingeniería de la Universidad Nacional de Lomas y la Fundación Sadosky.     
@@ -46,8 +44,8 @@
         </form>
     </article>
     <a name="Capacitación"><article class="Articulo2"></a>
-        <h2 class="texto">Capacitación para 850 mujeres en programación y desarrollo web</h2>
-        <h3 class="texto">6/9/2024</h3>
+        <h2 class="texto" id="titulo2">Capacitación para 850 mujeres en programación y desarrollo web</h2>
+        <h3 class="texto Fechas">6/9/2024</h3>
         <img src="Archivos/Capacitacion850mujeres.png" alt="Foto de un grupo de mujeres que realizaron la capacitación" id="capacitacion">
         <p class="texto">
             Más de 850 mujeres, de 11 localidades, realizaron durante la primera mitad del año cursos gratuitos de: Data Analytics, Data Science, Desarrollo Web Frontend, Desarrollo Backend, Ciberseguridad y Diseño UX/UI.
@@ -60,8 +58,8 @@
         </form>
     </article>
     <a name="Noticia_futbol"><a name="Futbol"><article class="Articulo3"></a></a>
-    <h2 class="texto">Argentina vs. Chile: resumen, goles y resultado del partido de las eliminatorias rumbo al Mundial 2026</h2>
-    <h3 class="texto">5/9/2024</h3>
+    <h2 class="texto" id="titulo3">Argentina vs. Chile: resumen, goles y resultado del partido de las eliminatorias rumbo al Mundial 2026</h2>
+    <h3 class="texto Fechas">5/9/2024</h3>
     <img src="Archivos/futbol.png" alt="Foto de Julian Alvarez y Enzo Martinez en el partido" id="partido">
     <p class="texto">
         La selección argentina derrotó este jueves como local en el estadio Monumental a Chile 3 a 0 en la séptima fecha de las eliminatorias sudamericanas al Mundial Estados Unidos-Canadá-México 2026 y continúa en lo más alto de la tabla de posiciones con 18 puntos. Todos los goles del juego que arbitró el venezolano Jesús Valenzuela fueron en el complemento y los convirtieron Alexis Mac Allister, Julián Álvarez y Paulo Dybala. En la previa del encuentro hubo un emotivo homenaje a Ángel Di María por su retiro del seleccionado. ‘Fideo’, acompañado de su familia, fue agasajado con un video y recibió varios regalos, entre ellos una réplica de la Copa América que obtuvo en dos oportunidades, 2021 y 2024. Además, Lionel Messi, ausente por la lesión en el tobillo derecho que sufrió en la definición del certamen continental contra Colombia, brindó unas palabras a través de una filmación que se proyectó en la pantalla gigante del Antonio V. Liberti.
@@ -71,59 +69,67 @@
         <input type="button" value="Comentar">
     </form>
 </article>
+
 <aside>
-    <ul>
-        <li>
+    <ul class="sidebar">
+        <li class="sidebar">
             Categorías
         </li>
-    <ul>
-        <li>
-            <a href="#Tecnología">
-            <span class="material-symbols-outlined">Devices</span>
+    <ul class="sidebar">
+        <li class="sidebar">
+            <a href="#Tecnología" class="Links sidebar">
+            <span class="material-symbols-outlined sidebar">Devices</span>
             Tecnología</a>
         </li>
-        <li>
-            <a href="#Futbol">
-            <span class="material-symbols-outlined">Sports_soccer</span>
+        <li class="sidebar">
+            <a href="#Futbol" class="Links sidebar">
+            <span class="material-symbols-outlined sidebar">Sports_soccer</span>
             Futbol</a>
         </li>
     </ul>
     </ul>
-    <ul>
-        <li>Ultimos articulos</li>
-        <ul>
-            <li>
-                <a href="#Zamora">
-                <span class="material-symbols-outlined">Memory</span>
+    <ul class="sidebar">
+        <li class="sidebar">Ultimos articulos</li>
+        <ul class="sidebar">
+            <li class="sidebar">
+                <a href="#Zamora" class="Links sidebar">
+                <span class="material-symbols-outlined sidebar">Memory</span>
                 Lomas de Zamora</a>
             </li>
-            <li>
-                <a href="#Capacitación">
-                <span class="material-symbols-outlined">menu_book</span>
+            <li class="sidebar">
+                <a href="#Capacitación" class="Links sidebar">
+                <span class="material-symbols-outlined sidebar">menu_book</span>
                 Capacitación de 850 mujeres</a>
             </li>
-            <li>
-                <a href="#Noticia_futbol">
-                <span class="material-symbols-outlined">sports_and_outdoors</span>
-                Argentina vs Chile</a>
+            <li class="sidebar">
+                <a href="#Noticia_futbol" class="Links sidebar">
+                <span class="material-symbols-outlined sidebar">sports_and_outdoors</span>
+                Argentina vs Chile
+                </a>
             </li>
         </ul>
     </ul>
-    <ul>
-        <li>Redes sociales</li>
-        <ul>
-            <li>
+    <ul class="sidebar">
+        <li class="sidebar">Redes sociales</li>
+        <ul class="sidebar">
+            <li class="sidebar">
                 <a href="https://www.instagram.com/valengallegos/" target="_blank">
-                <span class="fi fi-brands-instagram"> Instagram</span>
+                <span class="fi fi-brands-instagram sidebar Links"> Instagram</span>
                 </a>
             </li>
         </ul>
     </ul>
 </aside>
 <footer>
-    <div><p class="material-symbols-outlined">Copyright 2024 Blog. all rights reserved.</p></div>
-    <div><a href="Politica_y_privacidad.html">Echale un vistazo a nuestras politicas de privacidad</a></div>
-    <div><a href="https://maps.app.goo.gl/8EeHh3Ypg6CLfyVS6" target="_blank">Mapa de las oficinas principales de la empresa</a></div>
+    <div><p class="material-symbols-outlined" id="copy">Copyright 2024 Blog. all rights reserved.</p></div>
+    <div><a href="Politica_y_privacidad.html" id="privacidad" class="Links">Echale un vistazo a nuestras politicas de privacidad</a></div>
+    <div>
+        <ul>
+            Mapa de la pagina
+            <li><a href="#Inicio" class=" Links" >ir al inicio</a></li>
+            <li><a href="#Blog" class=" Links" >ir a Blog</a></li>
+        </ul>
+    </div>
 </footer>
 </main>
 </body>
